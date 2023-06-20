@@ -1,0 +1,116 @@
+.styled-table{
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9;
+    font-family: sans-serif;
+    max-width: 800px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #00A86B;
+}
+
+body{
+    background-color: #66CDAA;
+}
+
+header
+{
+     position: fixed;
+     display: table;
+}
+tbody
+{
+    height: 250px;
+    overflow-y:scroll;
+    display: block;
+
+    background-color: #F5F5F5;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #3B3C3E;
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 10px 7px 5px;
+
+}
+
+.styled-table thead tr{
+    color: #ffffff;
+    text-align: left;
+  
+   
+   
+}
+ .styled-table thead tr th{
+    padding-right: 30px!important;
+    padding-left: 20px!important;
+    width: 100px !important;
+   
+} 
+
+.styled-table th,
+.styled-table td{
+    padding: 12px 15px!important;
+    padding-right: 30px!important;
+    padding-left: 18px!important;
+   width:95px!important;
+
+    
+}
+
+
+.styled-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:nth-of-type(odd){
+  background-color: #e7e7e7;
+}
+
+.styled-table tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+
+.btn{
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:5px ;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-edit{
+    background-color: #AFEEEE;
+    padding: 1.8px 1.8px 1.8px 1.8px;
+    margin-right: 5px;
+    color: #696969;
+}
+
+.btn-delete{
+    background-color: #FF6347;
+    padding: 1.8px 1.8px 1.8px 1.8px;
+    margin-right: 5px;
+    color: 	#585858
+}  
+
+.btn-view{
+    background-color: #90EE90;
+    padding: 1.8px 1.8px 1.8px 1.8px;
+    margin-right: 5px; 
+    color: 	#696969
+}
+
+
+.btn-task{
+    background-color: #e82764;
+}
